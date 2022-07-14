@@ -22,6 +22,7 @@ class HrEmployee(models.Model):
         ('E2', 'E2'),
         ('E3', 'E3'),
         ('E4', 'E4'),
+        ('E5', 'E5'),
         ('M1', 'M1'),
         ('M2', 'M2'),
         ('M3', 'M3'),
