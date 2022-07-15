@@ -65,8 +65,10 @@ class HrPayslip(models.Model):
                 q1 = 4
             elif record.jour_de_repos_2 == "Samedi":
                 q1 = 5
-            else:
+            elif record.jour_de_repos_2 == "Dimanche":
                 q1 = 6
+            else:
+                q1 = ""
 
             for i in range(0, f + 1):
                 x = date(int(a), int(b), int(c)) + timedelta(days=i)
